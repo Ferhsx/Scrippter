@@ -19,19 +19,32 @@ draw_text_transformed((x1), (y1-22.5),opc_menu[0], 1.5, 1.5 ,1);
 
 //desenho das opções
 for(var i = 1; i < op_max; i++){
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_center);
+	//desenha
+	draw_text(x1,y1 +(dist*i),opc_menu[i]);
 	
-	
+	//verifica a posição
+	var psc_y = y1+(dist*i);
+	var larg_text = draw_get_text_width(opc_menu[i])/2;
+	var alt_text = 15;
 	
 	//mostrar seleção do menu com teclado e mouse
-	if(px_mouse&py_mouse == i){
+	if(px_mouse >= x1 - larg_text && px_mouse <= x1 + larg_text && 
+	py_mouse >= psc_y - alt_text/2 && py_mouse <= psc_y + alt_text/2){
 		draw_set_color(c_purple);
 	}else{
 		draw_set_color(c_white);
 	}
 	
-	draw_text(x1,y1 +(dist*i),opc_menu[i]);
+	
+	//centraliza
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_center);
+	draw_text(x1, psc_y, opc_menu);
+	
+	
+	
+	
+
 }
 
 draw_set_font(-1);
