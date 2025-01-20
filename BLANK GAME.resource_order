@@ -18,8 +18,13 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_chao","order":1,"path":"objects/obj_chao/obj_chao.yy",},
+    {"name":"Obj_console","order":3,"path":"objects/Obj_console/Obj_console.yy",},
     {"name":"obj_jog","order":2,"path":"objects/obj_jog/obj_jog.yy",},
+    {"name":"Object5","order":2,"path":"objects/Object5/Object5.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite3","order":16,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite4","order":17,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"Sprite5","order":18,"path":"sprites/Sprite5/Sprite5.yy",},
   ],
 }
