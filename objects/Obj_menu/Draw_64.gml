@@ -37,7 +37,7 @@ for(var i = 1; i < op_max; i++){
 			switch opc_menu[i]{
 				
 				case opc_menu[1]: //novo jogo
-					room_goto_next();
+					room_goto(Room2);
 					break
 				case opc_menu[2]: //carregar jogo
 					show_message("sem jogo para carregar");
