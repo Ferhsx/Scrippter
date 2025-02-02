@@ -1,2 +1,2 @@
 # Scrippter
- Um jogo de uma mulher chupada para dentro do pc.
+ Jogo em desenvolvimento, utilizado futuramente para a validação do TCC, mais detalhes no futuro.
